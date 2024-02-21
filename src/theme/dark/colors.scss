@@ -1,0 +1,53 @@
+
+$color-scheme: dark;
+
+$background: #1e1e1e;
+$background-hover: scale-color($background, $lightness: 10%) !default;
+$background-active: scale-color($background, $lightness: 20%) !default;
+
+$text: #bdc3c7;
+$text-contrast: #000000;
+$text-secondary: scale-color($text, $lightness: -10%) !default;
+$text-placeholder: scale-color($text, $lightness: -20%) !default;
+
+$primary: #2ecc71;
+$primary-contrast: #000000;
+$primary-hover: scale-color($primary, $lightness: -10%) !default;
+$primary-active: scale-color($primary, $lightness: -20%) !default;
+
+$accent: #8e44ad;
+$accent-contrast: #000000;
+$accent-hover: scale-color($accent, $lightness: 10%) !default;
+$accent-active: scale-color($accent, $lightness: 20%) !default;
+
+$error: #FF3B30;
+$error-contrast: #000000;
+$error-hover: scale-color($error, $lightness: 10%) !default;
+$error-active: scale-color($error, $lightness: 20%) !default;
+
+$warning: #FFA200;
+$warning-contrast: #000000;
+$warning-hover: scale-color($warning, $lightness: -10%) !default;
+$warning-active: scale-color($warning, $lightness: -20%) !default;
+
+$surface: #282828;
+$surface-divider: scale-color($surface, $lightness: 15%) !default;
+$surface-hover: scale-color($surface, $lightness: 10%) !default;
+$surface-active: scale-color($surface, $lightness: 20%) !default;
+
+$surface-elevated: scale-color($surface, $lightness: 20%) !default;
+$surface-elevated-divider: scale-color($surface-elevated, $lightness: 15%) !default;
+$surface-elevated-hover: scale-color($surface-elevated, $lightness: 10%) !default;
+$surface-elevated-active: scale-color($surface-elevated, $lightness: 20%) !default;
+
+$modal-mask-background: rgba(255,255,255,0.4);
+$modal-mask-background-hover: scale-color($modal-mask-background, $lightness: -10%) !default;
+$modal-mask-background-active: scale-color($modal-mask-background, $lightness: -20%) !default;
+
+$modal-mask-dark-background: rgba(255,255,255,0.9);
+$modal-mask-dark-background-hover: scale-color($modal-mask-dark-background, $lightness: -10%) !default;
+$modal-mask-dark-background-active: scale-color($modal-mask-dark-background, $lightness: -20%) !default;
+
+$modal-contrast: $surface;
+$modal-contrast-hover: scale-color($modal-contrast, $lightness: 10%) !default;
+$modal-contrast-active: scale-color($modal-contrast, $lightness: 20%) !default;

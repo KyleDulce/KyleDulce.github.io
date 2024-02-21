@@ -1,0 +1,72 @@
+
+$focusOutlineColor: $primary;
+
+@import './_general';
+@import './_form';
+@import './_button';
+@import './_panel';
+@import './_data';
+@import './_overlay';
+@import './_message';
+@import './_menu';
+@import './_media';
+@import './_misc';
+
+:root {
+    font-family: $font-family;
+    color-scheme: $color-scheme;
+    background-color: $background;
+
+    --kd-color-scheme: $color-scheme;
+
+    --kd-background: $background;
+    --kd-background-hover: $background-hover;
+    --kd-background-active: $background-active;
+
+    --kd-text: $text;
+    --kd-text-contrast: $text-contrast;
+    --kd-text-secondary: $text-secondary;
+    --kd-text-placeholder: $text-placeholder;
+
+    --kd-primary: $primary;
+    --kd-primary-contrast: $primary-contrast;
+    --kd-primary-hover: $primary-hover;
+    --kd-primary-active: $primary-active;
+
+    --kd-accent: $accent;
+    --kd-accent-contrast: $accent-contrast;
+    --kd-accent-hover: $accent-hover;
+    --kd-accent-active: $accent-active;
+
+    --kd-error: $error;
+    --kd-error-contrast: $error-contrast;
+    --kd-error-hover: $error-hover;
+    --kd-error-active: $error-active;
+
+    --kd-warning: $warning;
+    --kd-warning-contrast: $warning-contrast;
+    --kd-warning-hover: $warning-hover;
+    --kd-warning-active: $warning-active;
+
+    --kd-surface: $surface;
+    --kd-surface-divider: $surface-divider;
+    --kd-surface-hover: $surface-hover;
+    --kd-surface-active: $surface-active;
+
+    --kd-surface-elevated: $surface-elevated;
+    --kd-surface-elevated-divider: $surface-elevated-divider;
+    --kd-surface-elevated-hover: $surface-elevated-hover;
+    --kd-surface-elevated-active: $surface-elevated-active;
+
+    --kd-modal-mask-background: $modal-mask-background;
+    --kd-modal-mask-background-hover: $modal-mask-background-hover;
+    --kd-modal-mask-background-active: $modal-mask-background-active;
+
+    --kd-modal-mask-dark-background: $modal-mask-dark-background;
+    --kd-modal-mask-dark-background-hover: $modal-mask-dark-background-hover;
+    --kd-modal-mask-dark-background-active: $modal-mask-dark-background-active;
+
+    --kd-modal-contrast: $modal-contrast;
+    --kd-modal-contrast-hover: $modal-contrast-hover;
+    --kd-modal-contrast-active: $modal-contrast-active;
+}
